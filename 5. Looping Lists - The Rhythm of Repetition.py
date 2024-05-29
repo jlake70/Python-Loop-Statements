@@ -23,10 +23,10 @@ for index in range(len(genres)):
    
         if genres[index] == "Classical":
             continue     
-        else:
-            for genre in genres[index]:
-                    track_counter += 1    
+ #       else:
+ #           for genre in genres[index]:
+        track_counter += 1    
     
-                    print(f"{track_message} {track_counter} : {genres[index]} is ready for the light show")
-            break
+        print(f"{track_message} {track_counter} : {genres[index]} is ready for the light show")
+        
    
