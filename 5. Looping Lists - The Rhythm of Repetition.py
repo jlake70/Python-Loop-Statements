@@ -21,7 +21,7 @@ for genre in genres:
 
 for index in range(len(genres)):
    
-        if genres[index] == "Classical" and "Jazz":
+        if genres[index] == "Classical":
             continue     
  #       else:
  #           for genre in genres[index]:
