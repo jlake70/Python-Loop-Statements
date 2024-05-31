@@ -15,21 +15,16 @@ for genre in genres:
 
 # Task 2
 while True:
-     for genre in genres:
-      print(f"My type of music to listen to is {genre}")
-      counter += 1
-      #print(f" {track_message} {counter} : {genre}")
-      
-     #genre = genres[index]
+    for genre in genres:
+        if genre == "Classical":
+            break
+        print(f"My type of music to listen to is {genre} ")
+        counter += 1
      
-     if genre == 'Classical':
-          
-          break
+
+    break
+print(f" {genre} is not my favorite type of usic to listen to")
      
-     #print(f"My favorite type of music to listen to is {genre}")
-     #counter += 1
-     #print(f"{track_message} {counter} : {genre}")
-     #index += 1
      
 # Task 3
 
